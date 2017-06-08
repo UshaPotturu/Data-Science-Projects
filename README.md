@@ -6,25 +6,25 @@ Synopysis
 
 This notebook unfolds in the following phases
 
-  Getting the Data
-  
-  Data Preparation
-  
-  Descriptive analytics
-  
-  Feature Engineering
-  
-  Dimensionality Reduction
-  
-  Modeling and Evaluation
-  
+     1. Getting the Data
+
+     2 Data Preparation
+
+     3.Descriptive analytics
+
+     4.Feature Engineering
+
+     5.Dimensionality Reduction
+
+     6.Modeling and Evaluation
+
 
 I will compare the predictive power of four bespoken classes of algorithms
 
-  Logistic Regression 
+    1.Logistic Regression 
   
-  Random Forest
+    2.Random Forest
  
-  SVM
+    3.SVM
 
-  K-NN
+    4.K-NN
