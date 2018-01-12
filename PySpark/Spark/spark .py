@@ -1,5 +1,3 @@
-Your mission and passion is beyond acheving quarterly results. you redefining 
-
 orders = sc.textFile("/user/ushapotturu/data/retail_db/orders")
 #plit and extract 4 th column
 
