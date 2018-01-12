@@ -1,7 +1,6 @@
-Your mission and passion is beyond acheving quarterly results. you redefining 
-
+#get orders table
 orders = sc.textFile("/user/ushapotturu/data/retail_db/orders")
-#plit and extract 4 th column
+#split and extract 4 th column
 
 ordersMap3 = orders.map(lambda order: order.split(",")[3])
 for orderStatus in ordersMap3.collect():print(orderStatus)
@@ -12,7 +11,7 @@ for orderStatus in ordersMap.take(20):print(orderStatus)
 
 
 help(orders.filter)
-
+# Extract status is either "COMPLETE" or "CLOSED"
 ordersFiltered  = orders.filter(lambda order:order.split(",")[3] == "COMPLETE"  or order.split(",")[3] == "CLOSED")
 ordersFiltered.count()
 for i in ordersFiltered.take(100):print(i)
