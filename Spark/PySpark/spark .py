@@ -1,4 +1,4 @@
-#get orders table
+#get orders table (order_id,order_date,order_customer_id,order_status)
 orders = sc.textFile("/user/ushapotturu/data/retail_db/orders")
 #split and extract 4 th column
 
